@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Zapata-Portafolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/smartphone.css">
+</head>
+<body>
+    <div class="contenedor__principal"> 
+    <header class="header">
+        <nav class="menu__container">
+            <h1 class="menu__logo" href="#">Richard Zapata</h1>
+                <ul class="menu__lista">
+                    <li class="menu__lista_li"><a class="menu__itens" href="#sobremi">Conoceme</a></li>
+                    <li class="menu__lista_li"><a class="menu__itens" href="#habilidades">Habilidades</a></li>
+                    <!-- <li><a class="menu__itens" href="#">Hobbies</a></li> -->
+                    <!-- <li><a class="menu__itens" href="#">Formacion</a></li> -->
+                    <li class="menu__lista_li"><a class="menu__itens" href="#proyectos">Proyectos</a></li>
+                    <li class="menu__lista_li"><a class="menu__itens" href="mailto:jzap.work@gmail.com
+                        ?subject=Contacto desde tu portafolio">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+    <!-- padre de las secciones  -->
+    <div class="contenedor__sections">
+    <!-- Contenido perfil -->
+    <section class="perfil__container">
+        <article class="perfil__description">
+            <h2 class="perfil__titulo"> Holaaa!</h2>
+            <p class="perfil__contenido"> Soy <span> Richard Zapata </span>formado en lorem ipsum sit amet consectetur y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+            <div id="sobremi"  class="perfil__redes">
+                <ul class="perfil__lista">
+                    <li>
+                        <a class="perfil__itens" href="https://www.linkedin.com/in/zapata-richard-dev/" target="_blank">
+                            <img class="perfil__lista--img" src="./img/LINKEDIN.svg" alt="LinkedIn" />
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="perfil__itens" href="https://github.com/rzapata-dev" target="_blank">
+                            <img class="perfil__lista--img--git" src="./img/github__white.png" alt="GitHub" />
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="perfil__itens" href="#">
+                            Download CV
+                        </a>
+                        <!-- <a class="perfil__itens" href="ruta/a/tu-cv.pdf" download>
+                            Descargar CV
+                        </a> -->
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <figure  class="perfil__imagen">
+                <img class="imagen-circular" src="./img/Foto_perfil.png" alt="Foto de Richard Zapata" >
+                <figcaption>Foto de Richard Zapata</figcaption>    
+        </figure>
+    </section>
+
+    <!-- Contenido Sobremi -->
+     <section  class="sobremi__container">
+        <article  class="sobremi__description">
+            <h2 class="sobremi__titulo">Acerca de mí</h2>
+            <p id="habilidades"  class="sobremi_texto">Soy Richard Zapata, un desarrollador web con una gran pasión por crear experiencias digitales únicas y funcionales. Aunque recién estoy comenzando mi carrera, mi curiosidad y mi impulso por aprender me motivan a enfrentar nuevos desafíos con energía y creatividad. Cada proyecto es una oportunidad para crecer, explorar nuevas tecnologías y aportar ideas frescas. Estoy listo para colaborar con un equipo dinámico, aprender de los demás y seguir mejorando en lo que hago. Si buscas alguien con ganas de aprender, aportar y crear soluciones innovadoras.</p>
+        </article>
+    </section> 
+
+    <!-- Contenido de Skills -->
+     <section  class="habilidades__container">
+        <h2 class="habilidades__titulos" >Habilidades</h2>
+        
+        <ul class="habilidades__lista">
+            <li class="habilidad__item">
+                <img class="habilidad__imagen" src="img/JS.png" alt="Icono de JavaScript" >
+                <p class="habilidad__texto">JavaScript</p>
+            </li>
+            <li class="habilidad__item">
+                <img class="habilidad__imagen" src="img/HTML.png" alt="Icono de HTML" >
+                <p class="habilidad__texto">Html</p>
+            </li>
+            <li class="habilidad__item">
+                <img class="habilidad__imagen" src="img/CSS.SVG" alt="Icono de CSS" >
+                <p class="habilidad__texto">Css</p>
+            </li>
+            <li class="habilidad__item">
+                <img class="habilidad__imagen" src="img/REACT.SVG" alt="Icono de React" >
+                <p class="habilidad__texto">React</p>
+            </li>
+            <li class="habilidad__item">
+                <img  class="habilidad__imagen" src="img/GITHUB.png" alt="Icono de GitHub" >
+                <p id="proyectos" class="habilidad__texto">GitHub</p>
+            </li>
+        </ul>
+    </section> 
+
+     <!-- Contenido de formacion -->
+      <!-- <section class="formacion__container">
+
+      </section> -->
+
+      <!-- Contenido de proyectos -->
+    <section  class="proyecto__container">
+        <h2 class="proyecto__titulos">Proyectos</h2> 
+    
+        <ul class="proyecto__lista">
+            <li class="proyecto__item">
+                <figure class="proyecto__imagen"> 
+                    <img src="./img/pro_num_secre.jpg" alt="Imagen de pagina web sobre adivinar un numero secreto"> 
+                    <figcaption> 
+                        <p>Una breve descripción de lo que trata el proyecto.</p>
+                    </figcaption>
+                </figure>
+    
+                <article class="proyecto__detalle">
+                    <h3 class="proyecto__titulo">BrainBot: Adivina el Número</h3>
+                    <p class="proyecto__descripcion">Este proyecto es un juego interactivo diseñado para poner en práctica JavaScript, HTML y CSS. El juego consiste en adivinar un número secreto generado aleatoriamente,  con un enfoque en la interacción y la lógica de programación</p>
+                    <div class="proyecto__detalle--botones">
+                        <a class="proyecto__enlace" href="https://js-proy-test-4io1k1upm-richards-projects-daa324fa.vercel.app/" title="Ver más detalles del proyecto" target="_blank" >Ver más</a>
+                        <a class="proyecto__enlace" href="https://github.com/rzapata-dev/juego_numeroSecretoJs" title="Ver el repositorio de GitHub del proyecto" target="_blank">GitHub</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="proyecto__item">
+                <figure class="proyecto__imagen"> 
+                    <img src="./img/pro_num_secre.jpg" alt="Imagen de pagina web sobre un ecriptador y desencriptador"> 
+                    <figcaption> 
+                        <p>Una breve descripción de lo que trata el proyecto.</p>
+                    </figcaption>
+                </figure>
+    
+                <article class="proyecto__detalle">
+                    <h3 class="proyecto__titulo">BrainBot: Adivina el Número</h3>
+                    <p class="proyecto__descripcion">Este proyecto es una aplicación web interactiva creada para encriptar y desencriptar texto. Combina un diseño minimalista y responsivo con notificaciones y modales para mejorar la experiencia de usuario, todo usando HTML, CSS y JavaScript.</p>
+                    <div class="proyecto__detalle--botones">
+                        <a href="https://encriptador-proyecto.vercel.app/" class="proyecto__enlace" title="Ver más detalles del proyecto" target="_blank">Ver más</a>
+                        <a href="https://github.com/rzapata-dev/Encriptador_proyecto" class="proyecto__enlace" title="Ver el repositorio de GitHub del proyecto" target="_blank">GitHub</a>
+                    </div>
+                </article>
+            </li>           
+        </ul>
+</section> 
+
+    <!-- Contenido de contacto -->
+     <footer class="footer__container">
+        <nav class="footer__menu">
+                    <ul class="footer__lista">
+                        <li><a>© Richard Zapata Shapiama</a></li>
+                        <li><a class="footer__itens" href="mailto:jzap.work@gmail.com
+                            ?subject=Contacto desde tu portafolio">contact</a></li>
+                    </ul>
+        </nav>
+    </footer >  
+
+</div>
+</div>
+</body>
+
+</html>

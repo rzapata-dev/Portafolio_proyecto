@@ -1,0 +1,162 @@
+    /*celulares*/
+    @media (max-width: 600px) {
+        
+        .menu__container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-self: center;
+            width: auto;
+            font-size: 1.3rem;
+            margin-top: 0;
+        }
+        
+        .menu__logo{
+            padding-top:2px ;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .menu__lista{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-self: center;
+            width: 100%;
+
+            margin: 0;
+            padding-top: 5px;
+            padding-bottom: 2px;
+            gap: 5px;
+
+            background-color: rgb(141, 141, 225);
+            font-size: auto;
+            overflow: auto;
+        }
+
+        .menu__itens{
+            padding: 0;
+        }
+        
+        /*perfil y foto*/
+        .perfil__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+            height: auto;
+
+            margin-left: 10px;
+            margin-right: 10px; 
+            gap: 5px;       
+        }
+    
+        .perfil__description {
+            width: auto; 
+            padding-top: 5px;
+            font-size: 1.5rem; 
+            text-align: justify;
+        }
+        
+        .perfil__titulo{
+            display: none;
+        }
+        
+        .perfil__contenido{
+            flex-wrap: wrap;
+            text-align: center;
+            padding-left: 8px;
+            padding-right: 8px;
+          
+        }
+
+        .perfil__redes {
+            flex-wrap: wrap;
+            height: auto;
+            width: auto; 
+        }
+        
+        .perfil__lista {
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: center; 
+            padding-bottom: 25px;  
+        }
+
+        .perfil__itens {
+            flex-wrap: wrap;
+            text-align: center;
+            max-width: 120px; 
+            min-height: 44px;
+            font-size: 1rem;
+            padding: 0; 
+            margin-left:5px ;
+            margin-right: 5px;
+        }
+        .perfil__itens:nth-child(1) span, /* LinkedIn */
+        .perfil__itens:nth-child(2) span { /* GitHub */
+            display: none; 
+        }   
+          
+        .perfil__itens:nth-child(3) span { 
+        display: inline; 
+        }
+        
+        
+        .perfil__lista--img {
+            width: 30px; 
+            height: 30px; 
+        }
+    
+          
+          .perfil__lista--img--git {
+            width: 30px;
+            height: 30px;
+        }
+
+        .perfil__imagen{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width:100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .imagen-circular{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width: 100%;
+        }
+
+        .imagen-circular img{
+            height: auto; 
+            max-width: 100%;    
+        }
+
+        .proyecto__descripcion{
+            text-align: center;
+        }
+        
+    }
+
+    @media (max-width: 307px){
+
+        .perfil__container {
+            height: 100%;
+        }
+
+         .perfil__container {
+            padding-top: 30px;
+        } 
+
+        .perfil__imagen{
+            display: none;
+        }
+
+    } 
