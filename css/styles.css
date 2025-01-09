@@ -360,7 +360,7 @@ figcaption {
     justify-content: space-evenly;
     /* flex-direction: row; */
     width: 90%;
-    gap: 10px;
+    gap: 30px;
 }
 
 .proyecto__item{

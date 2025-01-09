@@ -197,7 +197,7 @@
         flex-wrap: wrap;
         justify-content: center;
         /* flex-direction: row; */
-        gap: 10px;
+       
         padding-bottom: 20px;
         min-height: auto;
     }
@@ -258,14 +258,14 @@
         
         height: auto;
         width:auto;
-        /* max-height:40px ;
-        max-width:130px ; */
+        /* max-height:40px ;*/
+        max-width:130px ; 
         min-width: 320px;
         margin:0px;
   
         padding-top: 5px;
         padding-left: 0;
-        padding-bottom: 0;
+        padding-bottom: 5px;
         padding-right: 0; 
         /* padding: 0; */
         gap:15px;
