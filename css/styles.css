@@ -191,7 +191,7 @@
 }
 
 .perfil__itens:hover .perfil__lista--img--git {
-    content: url('/img/icons8-github-64.png'); 
+    content: url('../img/icons8-github-64.png'); 
 }
 
 .perfil__imagen{
