@@ -125,7 +125,7 @@
 }
 
 .perfil__contenido{
-    text-align: center;
+    text-align: justify;
     margin-right: 50px;
     margin-top: 25px;
 }
@@ -418,13 +418,15 @@ figcaption {
 
 .proyecto__detalle--botones{
     display: flex;
-    /* flex-wrap: wrap; */
-     flex-direction: row; 
+    /* flex-wrap: wrap;  */
+      flex-direction: row;  
     justify-content: center;
     align-items: center;
     
     max-height:40px ;
     max-width:130px ;
+    height: auto;
+    width: auto;
     font-size: auto;
     font-weight: bold;
 

@@ -252,20 +252,20 @@
 
     .proyecto__detalle--botones{
         /* flex-direction: row; */
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         
         height: auto;
         width:auto;
-        /* max-height:40px ;*/
-        max-width:130px ; 
-        min-width: 320px;
+        /* max-height:40px ;*/ 
+        /* min-width: 320px; */
         margin:0px;
   
         padding-top: 5px;
         padding-left: 0;
-        padding-bottom: 5px;
+        padding-bottom: 50px;
         padding-right: 0; 
         /* padding: 0; */
         gap:15px;
