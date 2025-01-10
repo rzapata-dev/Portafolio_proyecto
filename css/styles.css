@@ -257,7 +257,7 @@ figcaption {
     justify-content: center;
     align-items: center;
 
-    width: 85%;
+    width: 72%;
     margin-bottom: 50px;
 }
 
@@ -406,9 +406,11 @@ figcaption {
 
 .proyecto__titulo{
     font-size: 2rem;
+   
 }
 
 .proyecto__descripcion{
+    
     text-align: justify;
     min-height:4.5rem ;
     padding-left: 15px;
